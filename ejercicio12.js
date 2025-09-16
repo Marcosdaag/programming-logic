@@ -1,14 +1,14 @@
 /*
 Enunciado ejercicio 12:
 
-Dado un numero mostrar todos los numeros desde ese al 0 de 8  en 8 en una lista con guiones donde cada numero debe empezar por N
+Dado un numero, mostrar todos los numeros desde ese al 0 restando de 8 en 8 en una lista con guiones donde cada numero debe empezar por N.
 */
 
 function toCero(number){
     let result = `--- Del ${number} al 0 --- \n`;
 
     while(number>0){
-        result += `- nº${number} \n`
+        result += `- nº${number} \n`;
         number -= 8;
     }
 

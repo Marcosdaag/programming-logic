@@ -1,7 +1,7 @@
 /*
 Enunciado ejercicio 10:
 
-Dado un numero, mostrar una escalera con escalones de "[-]" usando el numero para los niveles de la escalera
+Dado un numero, mostrar una escalera con escalones de "[-]" usando el numero para los niveles de la escalera.
 */
 
 function ladder(number){
@@ -11,7 +11,7 @@ function ladder(number){
 
         let steps = "";
         for(let step = 1; step <= lvl; step++){
-            steps += "[-]"
+            steps += "[-]";
         }
 
         completeLadder += steps + '\n';

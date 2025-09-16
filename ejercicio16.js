@@ -1,5 +1,5 @@
 /*
-Enunciado ejercicio 15:
+Enunciado ejercicio 16:
 
 Dada una cadena de texto, cuantas vocales tiene.
 */

@@ -1,5 +1,6 @@
 /*
 Enunciado ejercicio 6:
+
 Dibujar un cuadrado hueco con asteriscos.
 */
 

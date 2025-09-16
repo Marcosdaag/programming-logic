@@ -1,5 +1,6 @@
 /* 
 Enunciado ejercicio 1:
+
 Dado un numero, devolver su tabla de multiplicar completa.
 */
 

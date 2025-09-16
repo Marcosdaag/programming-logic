@@ -1,8 +1,9 @@
 /*
 Enunciado ejercicio 2:
+
 Dada una cadena de texto, comprobar si es un palindromo o no.
 Los palindromos son palabras que se leen igual aun estado invertidas.
-Ejemplos: bob, ana
+Ejemplos: bob, ana.
 */
 
 function palindromo(text){

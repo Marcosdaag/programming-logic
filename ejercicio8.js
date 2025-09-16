@@ -1,11 +1,12 @@
 /*
 Enunciado ejercicio 8:
+
 Dado un numero entero, invertirlo y devolver el nuevo numero entero.
 */
 
 function reverse(number){
     numberString = parseInt(number.toString().split('').reverse().join(''));
-    return  numberString
+    return  numberString;
 }
  
 console.log(reverse(89));

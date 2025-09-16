@@ -1,5 +1,6 @@
 /*
 Enunciado ejercicio 5:
+
 Crear una funcion que responda lo siguiente, cuanto es el X porcentaje de X numero.
 */
 
@@ -14,5 +15,5 @@ percent(10, 2000);
 /* 
 Explicacion:
 
-Cree una funcion que recibe como parametros tanto el porcentaje que quiere y el numero del que quiere saber ese porcentaje, despues cree la variable result donde aplicando una regla de 3 simple saco lo que el usuario solicida y lo concateno en un texto dentro de un console.log
+Cree una funcion que recibe como parametros tanto el porcentaje que quiere y el numero del que quiere saber ese porcentaje, despues cree la variable result donde aplicando una regla de 3 simple saco lo que el usuario solicita y lo concateno en un texto dentro de un console.log
 */
