@@ -23,5 +23,5 @@ console.log(toCero(100));
 Explicacion:
 
 Creo una funcion toCero que recibe como parametro un numero, despues inicializo la variable result con un template donde le doy un titulo a la lista de numeros a devolver.
-Despues hago un bucle while para que siempre que nuestro numero sea mayor a 0 siga iterando y por cada iteracion concateno a result el numero por el que va y le resto 8. Una vez que el bucle termina le concateno FIN y retorno la variable result que podemos ver con el console.log de abajo.
+Despues hago un bucle while para que siempre que nuestro numero sea mayor a cero siga iterando y por cada iteracion concateno a result el numero por el que va y le resto ocho. Una vez que el bucle termina le concateno FIN y retorno la variable result que podemos ver con el console.log de abajo.
 */
