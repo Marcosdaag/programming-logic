@@ -5,7 +5,7 @@ Haz un reloj que en tiempo real vaya mostrando la hora a cada segundo.
 Solo puedes uasr el objeto date para obtener la hora por primera vez, pero no para actualizarla.
 */
 
-class clock{
+class Clock{
 
     constructor(){
         this.date = new Date();
@@ -40,14 +40,17 @@ class clock{
         console.log(`${this.hours}:${this.minutes}:${this.seconds}`);
     }
 
-    on(){
-        
+    setOn(){
         setInterval(()=>{
             this.show();
         },1000);
     }
 
 }
+
+let myClock = new Clock();
+
+myClock.setOn();
 
 /* 
 Explicacion:
