@@ -55,4 +55,7 @@ myClock.setOn();
 /* 
 Explicacion:
 
+Creamos una clase clock y definimos sus propiedades dentro del constructor y les damos su valor. A continuacion creamos una funcion update que tiene la logica para establecer el tiempo correctamente segun que tantos segundos hayan pasado, despues creamos la funcion show que usa la logica de la funcion anterior y le pasa como parametro 1 para que sume un segundo cada vez que itera y por cada iteracion muestro por consola el tiempo actual.
+En ultimo lugar creo una funcion a la cual le agrego un setInterval que ejecuta la funcion show cada 1000ms osea un segundo.
+Creo un objeto tipo Clock que se llama myClock y despues ejecuto la funcion setOn para que funcione.
 */
